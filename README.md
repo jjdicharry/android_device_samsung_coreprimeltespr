@@ -1,6 +1,12 @@
 Device configuration for Samsung Galaxy Prevail LTE (coreprimeltespr G360P)
 ==================================================
 
+## NOTE
+This project is a work in progress and still not functional.
+Any contributions are welcome.
+
+## Device Specifications
+
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Quad-core 1.2 GHz ARM® Cortex™ A53
@@ -15,4 +21,7 @@ Display | 480 x 800 pixels, 4.5" (~207 ppi pixel density)
 Rear Camera  | 5 MP, f/2.6, autofocus, LED flash
 Front Camera | 2 MP
 Release Date | November 2014
+
+## Instructions
+Coming soon
 
