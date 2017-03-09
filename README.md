@@ -23,5 +23,26 @@ Front Camera | 2 MP
 Release Date | November 2014
 
 ## Instructions
-Coming soon
+
+Get Android 4.4.4_r1
+```
+$ mkdir android-4.4.4_r1_source
+$ cd android-4.4.4_r1_source
+$ repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.4_r1
+$ repo sync
+```
+
+Download ``coreprimeltespr.xml`` from [project](https://github.com/jjdicharry/android_local_manifest_coreprimeltespr) to ``android-4.4.4_r1_source/.repo/local_manifests``.
+
+Then run:
+```
+$ repo sync
+```
+
+After running:
+```
+$ . build/envsetup.sh
+```
+
+You should have the new lunch combo: **aosp_coreprimeltespr-userdebug**
 
