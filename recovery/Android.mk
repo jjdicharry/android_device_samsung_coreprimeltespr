@@ -21,4 +21,4 @@ include $(CLEAR_VARS)
 # should match TARGET_RECOVERY_UPDATER_LIBS set in BoardConfig.mk
 # LOCAL_MODULE := librecovery_updater_coreprimeltespr
 
-include $(BUILD_STATIC_LIBRARY)
+# include $(BUILD_STATIC_LIBRARY)
